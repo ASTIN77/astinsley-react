@@ -1,0 +1,37 @@
+.theBlogs p {
+  color: grey;
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+
+.boxFrame {
+  box-sizing: border-box;
+  border: 3px solid grey;
+  box-shadow: 10px 10px 5px #888888;
+  text-align: center;
+  margin: 5px;
+  margin-bottom: 20px;
+}
+
+.boxFrame {
+  transition: all 0.35s ease-in-out;
+}
+
+.boxFrame:hover {
+  transform: background-color 3s ease-in border-radius 3s ease-in;
+  border-radius: 20px;
+  background-color: #c1c1c1;
+  color: white;
+  cursor: pointer;
+}
+
+.boxFrame a:hover {
+  text-decoration: none;
+}
+
+.center {
+  display: block;
+  margin: 20px auto;
+}

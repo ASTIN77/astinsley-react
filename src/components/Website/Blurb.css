@@ -1,0 +1,95 @@
+.container .jumbotron {
+	text-align: center;
+	}
+
+  .container {
+    padding-top: 10px;
+  }
+
+
+  .animateText p {
+
+    position: relative;
+    top: 80px;
+    animation: fadeUpIn 3s;
+    -webkit-animation: fadeUpIn 3s;
+    -moz-animation: fadeUpIn 3s;/* Safari and Chrome */
+      }
+
+      
+.boxFrame {
+	
+	box-sizing: border-box;
+	border: 3px solid grey;
+	box-shadow: 10px 10px 5px #888888;
+	text-align: center;
+	margin: 5px;
+	margin-bottom: 20px;
+}
+
+.boxFrame {
+	transition: all .35s ease-in-out;
+
+}
+
+.boxFrame:hover  {
+		transform: background-color 3s ease-in border-radius 3s ease-in;
+		border-radius: 20px;
+		background-color: #C1C1C1;
+		color: white;
+		cursor: pointer;
+		
+}
+
+.boxFrame a:hover {
+	text-decoration: none;
+
+}
+	
+#blog {
+  margin: 30px auto;
+
+}
+
+#blog p {
+	color: grey;
+}
+#blog p::first-letter {
+	font-size: 2rem;
+
+}
+
+#homeImage {
+  border-radius: 50%;
+  border: 3px solid grey;
+  margin: 30px auto;
+}
+
+
+
+@media only screen and (max-device-width: 1024px),
+only screen and (max-device-width: 1024px) and (-webkit-device-pixel-ratio: 4),
+only screen and (max-device-width: 1024px) and (-webkit-device-pixel-ratio: 3),
+only screen and (max-device-width: 1024px) and (-webkit-device-pixel-ratio: 2) {
+  
+  .animateText p {
+    position: relative;
+    top: 5px;
+    animation: fadeUpInMobile 3s;
+    -webkit-animation: fadeUpInMobile 3s;
+    -moz-animation: fadeUpInMobile 3s;/* Safari and Chrome */
+  }
+  
+  
+}
+
+@keyframes fadeUpIn /* Safari and Chrome */
+{
+  from { opacity:0; top: 270px; }
+  to { opacity:1; top: 80px; }
+  }
+
+@keyframes fadeUpInMobile {
+    from {opacity:0; top:2000px;}
+    to {opacity:1; top:40px;}
+       }

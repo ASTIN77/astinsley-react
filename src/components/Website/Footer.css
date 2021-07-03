@@ -1,0 +1,53 @@
+.contactus {
+  text-align: center;
+  font-size: 0.875em;
+}
+.contactus ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+}
+
+.contactus li {
+  list-style-type: none;
+  text-decoration: none;
+  display: list-item;
+}
+
+.sexyline {
+  display: block;
+  border: none;
+  color: white;
+  height: 1px;
+  background: black;
+  background: -webkit-gradient(
+    radial,
+    50% 50%,
+    0,
+    50% 50%,
+    350,
+    from(#000),
+    to(#fff)
+  );
+}
+
+.shareButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.fb-like {
+  display: table-row;
+}
+
+#twitter-widget-0 {
+  vertical-align: top;
+  margin-left: 4px;
+}
+
+.footerIcons {
+  margin: 10px 20px;
+}
