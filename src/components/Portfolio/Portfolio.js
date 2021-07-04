@@ -8,7 +8,7 @@ import './Portfolio.css';
 
 const Portfolio = () => {
 	return (
-		<div className="container">
+		<div id="portfolio" className="container">
 			<div className="jumbotron">
 				<div className="row sectionHeading">
 					<h2 className="shadowed">Portfolio</h2>

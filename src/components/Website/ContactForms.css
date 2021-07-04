@@ -1,0 +1,87 @@
+.boxDialog {
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 99999;
+  opacity: 0;
+  -webkit-transition: opacity 600ms ease-in;
+  -moz-transition: opacity 600ms ease-in;
+  transition: opacity 600ms ease-in;
+  pointer-events: none;
+}
+
+.boxDialog:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.boxDialog div {
+  width: 400px;
+  position: relative;
+  margin: 10% auto;
+  padding: 30px 20px 20px 20px;
+  border-radius: 10px;
+  background: #fff;
+  background: -moz-linear-gradient(#fff, #999);
+  background: -webkit-linear-gradient(#fff, #999);
+  background: -o-linear-gradient(#fff, #999);
+}
+
+.boxDialog div p,
+h2,
+h3,
+h4,
+h5,
+legend {
+  text-align: center;
+}
+.boxDialog a {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+
+.close {
+  background: #ff0000;
+  color: #ffffff;
+  line-height: 25px;
+  position: absolute;
+  right: -12px;
+  text-align: center;
+  top: -10px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover {
+  background: #ff0000;
+  color: #ffffff;
+}
+
+.formFormat {
+  text-align: center;
+}
+
+@media only screen and (max-device-width: 1024px),
+  only screen and (max-device-width: 1024px) and (-webkit-device-pixel-ratio: 4),
+  only screen and (max-device-width: 1024px) and (-webkit-device-pixel-ratio: 3),
+  only screen and (max-device-width: 1024px) and (-webkit-device-pixel-ratio: 2) {
+  #mobileDialog {
+    width: 90%;
+  }
+
+  #formFormat {
+    text-align: left;
+  }
+}

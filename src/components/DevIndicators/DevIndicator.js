@@ -10,6 +10,12 @@ const DevIndicator = (props) => {
     <Fragment>
       <div className="dev-icons">
         <img
+          src={jsLogo}
+          alt="JavaScript icon"
+          height="48"
+          width="48"
+        />
+        <img
           src={htmlLogo}
           alt="HTML icon"
           height="48"
@@ -18,12 +24,6 @@ const DevIndicator = (props) => {
         <img
           src={cssLogo}
           alt="CSS icon"
-          height="48"
-          width="48"
-        />
-        <img
-          src={jsLogo}
-          alt="JavaScript icon"
           height="48"
           width="48"
         />

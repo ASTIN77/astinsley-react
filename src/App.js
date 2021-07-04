@@ -16,8 +16,8 @@ function App() {
 			<Blurb />
 			<Card>
 				<MenuBar name="About" location="" description="More Information" />
-				<MenuBar name="Portfolio" location="" description="My Sites" />
-				<MenuBar name="Qualifications" location="" description="My Certifications" />
+				<MenuBar name="Portfolio" location="#portfolio" description="My Sites" />
+				<MenuBar name="Qualifications" location="#certs" description="My Certifications" />
 				<MenuBar name="Contact" location="" description="Get In Touch" />
 			</Card>
 			<BlogText />
