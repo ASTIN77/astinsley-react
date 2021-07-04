@@ -1,58 +1,58 @@
 .container .jumbotron {
-	text-align: center;
-	}
+  text-align: center;
+}
 
 .nav {
-        background-color : white;
-        font-size: 1.25rem;
-        padding-top: 5px;
-        margin-right: 20px;
-      }
-      
+  background-color: white;
+  font-size: 1.25rem;
+  padding-top: 5px;
+  margin-right: 20px;
+}
+
 .navbar {
-        background-color: #ffffff;
-      }
-      
-.navbar-default .navbar-nav > li > a:hover{
-              border-top: 2px solid grey;
-              border-bottom: 2px solid grey;
-          }
-.navbar-default .navbar-nav > li > a:focus{
-              border-top: 2px solid grey;
-              border-bottom: 2px solid grey;
-          }
-.navbar-default .navbar-nav > li > a:visited{
-              border-top: none;
-              border-bottom: none;
-      }
-      
+  background-color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+}
+.navbar-default .navbar-nav > li > a:focus {
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+}
+.navbar-default .navbar-nav > li > a:visited {
+  border-top: none;
+  border-bottom: none;
+}
+
 .myNavbar li {
-           box-sizing: border-box;
-           height: 60px;
-       }
-       
-.dropdown-menu li{
-          box-sizing: content-box;
-          height: 30px;
-       }
-       
+  box-sizing: border-box;
+  height: 60px;
+}
+
+.dropdown-menu li {
+  box-sizing: content-box;
+  height: 30px;
+}
+
 .grad-bar {
-          min-height: 20px;
-          background: linear-gradient(
-            135deg,
-            #bef9d7 0%,
-            #bef9d7 15%,
-            #94e5c1 15%,
-            #94e5c1 20%,
-            #7df2e4 20%,
-            #7df2e4 42%,
-            #a9f9f6 42%,
-            #a9f9f6 66%,
-            #9ab3f9 66%,
-            #9ab3f9 72%,
-            #9795db 72%,
-            #9795db 86%,
-            #c9ace5 86%,
-            #c9ace5 100%
-          );
-        }
+  min-height: 20px;
+  background: linear-gradient(
+    135deg,
+    #bef9d7 0%,
+    #bef9d7 15%,
+    #94e5c1 15%,
+    #94e5c1 20%,
+    #7df2e4 20%,
+    #7df2e4 42%,
+    #a9f9f6 42%,
+    #a9f9f6 66%,
+    #9ab3f9 66%,
+    #9ab3f9 72%,
+    #9795db 72%,
+    #9795db 86%,
+    #c9ace5 86%,
+    #c9ace5 100%
+  );
+}

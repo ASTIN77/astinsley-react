@@ -4,7 +4,7 @@ import blogger from '../../images/blogger.jpg';
 import Artta from '../../images/Artta.png';
 import raiLocate from '../../images/raiLocate.jpg';
 import CampReviewer from '../../images/campreviewer.jpg';
-import './Portfolio.css';
+import './Portfolio.module.css';
 
 const Portfolio = () => {
 	return (

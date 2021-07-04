@@ -1,6 +1,15 @@
-import './Nav.css';
 
-const Nav = () => {
+import './Nav.css';
+import ContactForm from '../Website/ContactForm';
+
+
+const Nav = (props) => {
+
+
+
+	const onContactHandler = (event) => {
+		ContactForm(event.target.value);
+	}
 	return (
 		<div className="container">
 			<nav className="navbar navbar-default navbar-fixed-top">
@@ -60,7 +69,7 @@ const Nav = () => {
 							</ul>
 						</li>
 						<li>
-							<a href="#contactForm">Contact</a>
+							<a href="#contactForm" onClick={onContactHandler}>Contact</a>
 						</li>
 					</ul>
 				</div>

@@ -1,7 +1,7 @@
 import MS410 from '../../images/exam-410-small.png';
 import MS411 from '../../images/exam-411-small.png';
 import OU from '../../images/OU.svg';
-import './Qualifications.css';
+import './Qualifications.module.css';
 
 const Qualifications = () => {
 	return (

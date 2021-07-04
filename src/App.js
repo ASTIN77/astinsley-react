@@ -7,6 +7,7 @@ import BlogText from './components/Website/BlogText';
 import Qualifications from './components/Qualifications/Qualifications';
 import WebsiteLinks from './components/Website/WebsiteLinks';
 import Footer from './components/Website/Footer';
+
 import './App.css';
 
 function App() {

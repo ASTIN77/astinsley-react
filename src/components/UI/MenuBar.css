@@ -1,22 +1,17 @@
-
-
 .boxFrame {
-
-	transition: all .35s ease-in-out;
-    text-align: center;
-
+  background-color: white;
+  transition: all 0.35s ease-in-out;
+  text-align: center;
 }
 
-.boxFrame:hover  {
-		transform: background-color 3s ease-in border-radius 3s ease-in;
-		border-radius: 20px;
-		background-color: #C1C1C1;
-		color: white;
-		cursor: pointer;
-		
+.boxFrame:hover {
+  transform: background-color 3s ease-in border-radius 3s ease-in;
+  border-radius: 20px;
+  background-color: #c1c1c1;
+  color: white;
+  cursor: pointer;
 }
 
 .boxFrame a:hover {
-	text-decoration: none;
-
+  text-decoration: none;
 }

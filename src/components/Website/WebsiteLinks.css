@@ -35,3 +35,7 @@
   display: block;
   margin: 20px auto;
 }
+
+a img {
+  text-align: center;
+}
