@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router-dom';
 import './Nav.css';
 import ContactForm from '../Website/ContactForm';
 
@@ -36,7 +37,7 @@ const Nav = (props) => {
 							<a href="/devblog">DevBlog</a>
 						</li>
 						<li>
-							<a href="#aboutMe">About</a>
+							<Link to="/about">About</Link>
 						</li>
 						<li>
 							<a href="#portfolio">Portfolio</a>

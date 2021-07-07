@@ -4,7 +4,8 @@ import blogger from '../../images/blogger.jpg';
 import Artta from '../../images/Artta.png';
 import raiLocate from '../../images/raiLocate.jpg';
 import CampReviewer from '../../images/campreviewer.jpg';
-import './Portfolio.module.css';
+import astinsley from '../../images/Astech_React_Screenshot.png';
+import './Portfolio.css';
 
 const Portfolio = () => {
 	return (
@@ -32,36 +33,44 @@ const Portfolio = () => {
 						<DevIndicator />
 					</div>
 				</div>
-				<div className="row sectionHeading2">
-					<div className="col-md-4" />
-					<div className="col-md-4">
+				<div className="row sectionHeading">
+
+					<div className="col-md-6">
 						<a href="https://etara.herokuapp.com/" target="_blank" rel="noreferrer">
 							<img className="center bordered" src={Artta} alt={Artta} />
 						</a>
 						<h3>ETARA</h3>
 						<h4>
-							<b>E</b>lectronic <b>T</b>icketing <b>A</b>nd <b>R</b>eporting <b>A</b>pplication.
+							<b>E</b>lectronic <b>T</b>icketing <b>A</b>nd <b>R</b>eporting <b>A</b>pplication is
+							a ticketing application for Utility Works.						</h4>
+						<DevIndicator />
+					</div>
+					<div className="col-md-6">
+						<a href="https://astinsley.herokuapp.com/" target="_blank" rel="noreferrer"><img className="center bordered"
+							src={astinsley} alt={astinsley} /></a>
+						<h3>ASTINSLEY</h3>
+						<h4>A re-implementation of my porfolio website using ReactJS.
+							<em>Currently a work in progress</em>
 						</h4>
 						<DevIndicator />
 					</div>
-					<div className="col-md-4" />
-				</div>
-				<div className="row sectionHeading">
-					<div className="col-md-6">
-						<a href="https://campreviewer.herokuapp.com/" target="_blank" rel="noreferrer">
-							<img className="center bordered" src={CampReviewer} alt={CampReviewer} />
-						</a>
-						<h3>Camp Reviewer</h3>
-						<h4>A site to review various campsites and comment on their experiences.</h4>
-						<DevIndicator />
-					</div>
-					<div className="col-md-6">
-						<a href="http://raiLocate.astechit.net/" target="_blank" rel="noreferrer">
-							<img className="center bordered" src={raiLocate} alt={raiLocate} />
-						</a>
-						<h3>RaiLocate</h3>
-						<h4>Fast, efficient real-time UK train journey information using API functionality.</h4>
-						<DevIndicator />
+					<div className="row sectionHeading">
+						<div className="col-md-6">
+							<a href="https://campreviewer.herokuapp.com/" target="_blank" rel="noreferrer">
+								<img className="center bordered" src={CampReviewer} alt={CampReviewer} />
+							</a>
+							<h3>Camp Reviewer</h3>
+							<h4>A site to review various campsites and comment on their experiences.</h4>
+							<DevIndicator />
+						</div>
+						<div className="col-md-6">
+							<a href="http://raiLocate.astechit.net/" target="_blank" rel="noreferrer">
+								<img className="center bordered" src={raiLocate} alt={raiLocate} />
+							</a>
+							<h3>RaiLocate</h3>
+							<h4>Fast, efficient real-time UK train journey information using API functionality.</h4>
+							<DevIndicator />
+						</div>
 					</div>
 				</div>
 			</div>
