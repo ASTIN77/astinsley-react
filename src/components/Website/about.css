@@ -41,36 +41,25 @@
 }
 
 .boxDialogModal {
-  overflow: auto;
-  position: fixed;
+  overflow: hidden;
+  position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.8);
-  z-index: 99999;
-  opacity: 1;
-  -webkit-transition: opacity 600ms ease-in;
-  -moz-transition: opacity 600ms ease-in;
-  transition: opacity 600ms ease-in;
-  pointer-events: none;
-}
-
-.boxDialogModal:target {
-  opacity: 0;
-  pointer-events: auto;
+  background-image: url("../../images/email_logo.svg");
+  background-size: cover;
 }
 
 .boxDialogModal div {
   width: 400px;
   position: relative;
-  margin: 10% auto;
-  padding: 30px 20px 20px 20px;
+  margin: 25% auto;
+  padding: 30px 10px 20px 20px;
   border-radius: 10px;
   background: #fff;
-  background: -moz-linear-gradient(#fff, #999);
-  background: -webkit-linear-gradient(#fff, #999);
-  background: -o-linear-gradient(#fff, #999);
+  background: linear-gradient(#fff, #999);
 }
 
 .boxDialog div p,
