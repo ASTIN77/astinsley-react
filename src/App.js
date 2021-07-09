@@ -9,7 +9,6 @@ import BlogText from './components/Website/BlogText';
 import Qualifications from './components/Qualifications/Qualifications';
 import WebsiteLinks from './components/Website/WebsiteLinks';
 import Footer from './components/Website/Footer';
-import DevBlogIndex from './components/DevBlog/DevBlogIndex';
 import QualificationsOverlay from './components/Qualifications/QualificationsOverlay';
 import About from './components/Website/about';
 
@@ -40,8 +39,6 @@ function App() {
 
 			)}
 			/>
-
-			<Route path='/devblog' component={DevBlogIndex} />
 			<Route path='/certs' component={QualificationsOverlay} />
 			<Route path='/about' component={About} />
 		</Router>

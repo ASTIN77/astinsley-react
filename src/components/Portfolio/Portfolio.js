@@ -35,7 +35,8 @@ const Portfolio = () => {
 				</div>
 				<div className="row sectionHeading">
 
-					<div className="col-md-6">
+					<div className="col-md-4"></div>
+					<div className="col-md-4">
 						<a href="https://etara.herokuapp.com/" target="_blank" rel="noreferrer">
 							<img className="center bordered" src={Artta} alt={Artta} />
 						</a>
@@ -45,15 +46,7 @@ const Portfolio = () => {
 							a ticketing application for Utility Works.						</h4>
 						<DevIndicator />
 					</div>
-					<div className="col-md-6">
-						<a href="https://astinsley.herokuapp.com/" target="_blank" rel="noreferrer"><img className="center bordered"
-							src={astinsley} alt={astinsley} /></a>
-						<h3>ASTINSLEY</h3>
-						<h4>A re-implementation of my porfolio website using ReactJS.
-							<em>Currently a work in progress</em>
-						</h4>
-						<DevIndicator />
-					</div>
+					<div className="col-md-4"></div>
 					<div className="row sectionHeading">
 						<div className="col-md-6">
 							<a href="https://campreviewer.herokuapp.com/" target="_blank" rel="noreferrer">

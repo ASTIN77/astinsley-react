@@ -33,9 +33,7 @@ const Nav = (props) => {
 
 				<div className="collapse navbar-collapse myNavbar" id="mobileNav">
 					<ul className="nav navbar-nav navbar-right">
-						<li>
-							<a href="/devblog">DevBlog</a>
-						</li>
+
 						<li>
 							<Link to="/about">About</Link>
 						</li>
