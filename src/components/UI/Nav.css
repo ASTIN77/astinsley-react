@@ -12,6 +12,10 @@
 .navbar {
   background-color: #ffffff;
 }
+.navbar-brand {
+  margin: 0px 20px 0px auto;
+  padding: 5px auto;
+}
 
 .navbar-default .navbar-nav > li > a:hover {
   border-top: 2px solid grey;

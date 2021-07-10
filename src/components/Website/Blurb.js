@@ -27,12 +27,14 @@ const Blurb = (props) => {
                     </div>
                     <div className="center-image">
 
-                        <img id="homeImage" src={coding} alt="Coding Binary" className="img-responsive" height="320" width="320" />
+                        <img id="homeImage" src={coding} alt="Coding Binary" className="img-responsive"
+                            height="320" width="320" />
                     </div>
                 </div>
 
             </div>
         </div>
+
 
     )
 }

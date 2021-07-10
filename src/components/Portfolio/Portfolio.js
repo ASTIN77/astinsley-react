@@ -4,7 +4,6 @@ import blogger from '../../images/blogger.jpg';
 import Artta from '../../images/Artta.png';
 import raiLocate from '../../images/raiLocate.jpg';
 import CampReviewer from '../../images/campreviewer.jpg';
-import astinsley from '../../images/Astech_React_Screenshot.png';
 import './Portfolio.css';
 
 const Portfolio = () => {
